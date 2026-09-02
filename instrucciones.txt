@@ -1,0 +1,25 @@
+Diagnostico practico
+
+En esta asignación deberás entregar únicamente el enlace de tu repositorio Git.
+Antes de realizar la entrega, verifica que:
+El repositorio pueda ser consultado.
+El proyecto se encuentre completo.
+La rama main contenga la versión final.
+Las ramas utilizadas durante el desarrollo sean visibles.
+El historial de commits sea visible.
+Las Insights/gráficas puedan consultarse.
+el propósito de este examen es diagnóstico. Se evaluará tanto el resultado final como el proceso utilizado para llegar a él. El historial de Git deberá reflejar el desarrollo real realizado durante el examen.
+
+
+
+Con HTML boostrap, js hacer vistas, diseño móvil igual
+usando la documentación de boostrap hacer la vista web y mobile
+subir usando una metodología de git
+git publico, graficas para demostrar que se utilizo una metodología
+punto extra: aplicar un patron de diseño 
+solo hacer el home
+ocupar los cdn de bootstrap
+tambien se van a tomar en cuenta el encarpetado
+
+
+este es el repositorio: https://github.com/Laurapb0/Diagnostico_Practico
