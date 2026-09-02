@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding-top: 76px; /* Para compensar el fixed navbar */
+    background-color: #fcfcfc;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: -0.5px;
+}
+
+.nav-link {
+    font-size: 0.95rem;
+}
+
+/* Content wrapper */
+.content-wrapper {
+    padding-top: 2rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f4f6fa;
+}
+
+.hero-image {
+    max-height: 250px;
+    object-fit: contain;
+    mix-blend-mode: multiply; /* Helps blend with the background */
+}
+
+/* Info Blocks */
+.info-blocks .icon-box {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Categories */
+.category-card {
+    background-color: transparent !important;
+    transition: transform 0.2s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-wrapper {
+    aspect-ratio: 1 / 1;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Utilities */
+.text-primary {
+    color: #0d6efd !important;
+}
+
+/* Mobile specific tweaks */
+@media (max-width: 767.98px) {
+    .content-wrapper {
+        padding-top: 1rem;
+    }
+    
+    .hero-section {
+        background-color: #ffffff; /* Cleaner look on mobile */
+    }
+    
+    .display-4 {
+        font-size: 2.2rem;
+    }
+    
+    .card-img-wrapper {
+        aspect-ratio: 4 / 3;
+    }
+}
